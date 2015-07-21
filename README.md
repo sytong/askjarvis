@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Prerequisites
+   * Please register an account at [Marvel Developer Portal](http://developer.marvel.com/).
+   * Define environment variables to store your own Marvel API Public key and Private key.
+      * Use `MARVEL_API_PRIVATE_KEY` as the variable name of the Private Key
+      * Use `MARVEL_API_PUBLIC_KEY` as the variable name of the Public Key
 
 ## Development
 
