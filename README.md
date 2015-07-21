@@ -4,6 +4,8 @@ Ask Jarvis about your favorite Marvel superhero!!
 
 `Askjarvis` is a Ruby wrapper of the Marvel Developer API. I wrote this as an exercise to try the Ruby testing tools and also learn how to write tests for remote API calls.
 
+[![Build Status](https://travis-ci.org/sytong/askjarvis.svg?branch=master)](https://travis-ci.org/sytong/askjarvis)
+
 ## Installation
 
 Add this line to your application's Gemfile:
