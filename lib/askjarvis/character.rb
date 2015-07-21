@@ -12,14 +12,14 @@ DEFAULT_PARAMS = "ts=#{TIMESTAMP}&apikey=#{PUBLIC_KEY}&hash=#{URL_HASH}"
 
 module Askjarvis
   class Character
-  	attr_reader :id, :name, :description
+    attr_reader :id, :name, :description
 
-  	def initialize(attributes)
-  		@id = attributes["id"]
-  		@name = attributes["name"]
-  	end
+    def initialize(attributes)
+      @id = attributes["id"]
+      @name = attributes["name"]
+    end
 
-  	def self.find(id)
+    def self.find(id)
       response = Faraday.get("#{BASE_URL}/characters/#{id}?#{DEFAULT_PARAMS}")
       attributes = JSON.parse(response.body)
       new(attributes["data"]["results"][0])
