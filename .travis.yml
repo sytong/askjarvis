@@ -3,6 +3,7 @@ install:
   - gem install minitest-stub-const
   - gem install vcr
   - gem install webmock
+  - gem install faraday
 
 language: ruby
 rvm:
