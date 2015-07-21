@@ -2,6 +2,7 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'askjarvis'
 
 require 'minitest/autorun'
+require 'minitest/stub_const'
 require 'webmock/minitest'
 require 'vcr'
 
