@@ -1,6 +1,8 @@
 install:
   - gem install minitest
   - gem install minitest-stub-const
+  - gem install vcr
+  - gem install webmock
 
 language: ruby
 rvm:
